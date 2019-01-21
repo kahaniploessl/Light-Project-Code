@@ -1,6 +1,16 @@
-// Sourced then modified code from: http://www.arduino.cc/en/Tutorial/Fading
+/* 
 
-// set pins 11,10,9,6,5,3 to variables
+ *  Sourced then modified code from: http://www.arduino.cc/en/Tutorial/Fading
+ *  Set pins 11,10,9,6,5,3 to variables
+ *  Pins used for LEDs
+ 
+ *  Sections: 1 | 2 | 3 | 4 | 5 | 6 | 7
+ *  Colors(T-B): b/w | w/b | g/b | y/w | g/b | w/b | b/w 
+ *  1/2 - Pins 11/10,  3/4 - Pins 9/6,  5/6/7 - Pins 5/3
+ *  Set 1: b-w-b-w-b-w-b
+ *  Set 2: w-b-g-y-g-b-w
+ 
+*/
 
 int ledPin1 = 11;
 int ledPin2 = 10;
